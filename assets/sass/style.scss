@@ -1,0 +1,35 @@
+/*!
+    Theme Name: Child
+
+    Description: Genesis-powered developers child theme
+    Author: mdbcreative
+    Author URI:
+    Version: 1.0.0
+
+    Tags:
+
+    Template: Genesis
+    License:
+    License URI:
+    Text Domain:
+
+
+
+
+ */
+
+@import "base/index";
+@import "layouts/index";
+@import "common-classes";
+@import "components/widgets/index";
+@import "plugins/index";
+@import "components/accessibility/index";
+
+@import "components/header/index";
+@import "components/navigation/index";
+@import "components/content/index";
+@import "components/comments/index";
+@import "components/sidebars/index";
+@import "components/footer/index";
+
+
