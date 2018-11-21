@@ -1,0 +1,27 @@
+//
+// Breakpoints
+//
+//
+//========================
+
+
+// Standard Media Query Breakpoints
+// @group wds
+
+$large-desktop: rem(1680);
+$desktop: rem(1366);
+$tablet-landscape: rem(1024);
+$wp-admin-bar: rem(783);
+$tablet-portrait: rem(768);
+$phone-landscape: rem(640);
+$phone-portait: rem(360);
+
+// Global Screen Sizes
+//
+
+$smallestScreen: $max-width - 820px; // 320px;
+$smallerScreen: $max-width - 660px; // 480px;
+$smallScreen: $max-width - 380px; // 760;
+$mediumScreen: $max-width - 117px; // 1023;
+$largeScreen: $max-width + 40px; //1180px;
+$hugeScreen: $max-width + 460px; // 1600;

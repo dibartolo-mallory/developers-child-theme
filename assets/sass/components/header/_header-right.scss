@@ -7,7 +7,7 @@
   width: $headerRight__width;
 
   @media only screen and (max-width: 1200px){
-    width: $headerRight__laptopWidth;
+    width: $footerWidgets__width__largeScreen;
   }
 
   @media only screen and (max-width: 1023px) {

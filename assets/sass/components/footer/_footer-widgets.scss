@@ -4,25 +4,47 @@
 
 .footer-widgets {
   background-color: $footerWidgets__backgroundColor;
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: rem($footerWidgets__fontSize);
   clear: both;
   padding: 60px 0;
+
 }
 
 .footer-widgets-1,
 .footer-widgets-2,
 .footer-widgets-3 {
-  width: 380px;
-}
+  width: $footerWidgets__width;
 
+  @media only screen and (max-width: 1200px) {
+    width: $footerWidgets__width__largeScreen;
+
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+    width: 100%;
+  }
+}
 .footer-widgets-1 {
   margin-right: 70px;
+
+  @media only screen and (max-width: 1200px) {
+    margin-right: 30px;
+
+  }
 }
 
 .footer-widgets-1,
 .footer-widgets-2 {
   float: left;
+
+  @media only screen and (max-width: 1023px) {
+    .footer-widgets-1,
+    .footer-widgets-2 {
+      margin: 0 auto 40px;
+    }
+  }
+
 }
 
 .footer-widgets-3 {

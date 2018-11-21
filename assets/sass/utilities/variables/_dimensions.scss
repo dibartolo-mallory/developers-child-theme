@@ -4,7 +4,7 @@
 
 
 //
-// Header
+// Header Module
 //==========================
 
 $titleArea__width: 300px;
@@ -13,7 +13,15 @@ $siteTitle__minHeight: 80px;
 
 $headerRight__width: 800px;
 
-$headerRight__laptopWidth: 620px;
+$headerRight__width__largeScreen: 620px;
+
+
+
+
+// Footer Module
+
+$footerWidgets__width: 380px;
+$footerWidgets__width__largeScreen: 300px;
 
 
 
