@@ -1,0 +1,25 @@
+//
+// Entry Meta
+//==========================================
+
+
+.entry-footer {
+
+  .entry-meta {
+    border-top: 1px solid $entryFooter__meta__borderColor;
+    padding-top: 24px;
+    margin-bottom: 0;
+
+    //font-size: rem($entryMeta__footer__fontSize);
+  }
+}
+
+.entry-categories,
+.entry-tags {
+  display: block;
+}
+
+.entry-comments-link::before {
+  content: "\2014";
+  margin: 0 6px 0 2px;
+}
