@@ -77,4 +77,17 @@ $comment__backgroundColor: $white;
 //=================================
 $widgetTitle__linkColor: #333;
 
+//
+// Plugins
+//=================================
+$enews__backgroundColor: #333;
+$enews__color: $white;
+$enews__inputBorderColor: #333;
+$enews__submitButton__backgroundColor: #c3251d;
+$enews__submitButton__color: $white;
+
+$enews__submitButton__backgroundHoverColor: $enews__submitButton__color;
+$enews__submitButton__hoverColor: $enews__submitButton__backgroundColor;
+
+
 
