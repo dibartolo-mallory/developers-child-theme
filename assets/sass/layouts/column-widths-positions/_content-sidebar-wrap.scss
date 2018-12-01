@@ -1,0 +1,31 @@
+/* ## Column Widths and Positions
+--------------------------------------------- */
+
+/* ### Wrapping div for .content and .sidebar-primary */
+
+.content-sidebar-wrap {
+  .content-sidebar-sidebar &,
+  .sidebar-content-sidebar &,
+  .sidebar-sidebar-content & {
+    width: $contentSidebarWrap__width;
+
+    @media only screen and (max-width: $largerScreen){
+
+      width: $contentSidebarWrap__largerScreenWidth;
+    }
+
+    @media only screen and (max-width: $largeScreen){
+      width: $contentSidebarWrap__largeScreenWidth;
+    }
+  }
+
+  .content-sidebar-sidebar & {
+    float: left;
+  }
+
+  .sidebar-content-sidebar &,
+  .sidebar-sidebar-content & {
+    float: right;
+  }
+
+}
