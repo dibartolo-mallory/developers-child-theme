@@ -1,31 +1,31 @@
 /* ## Genesis eNews Extended
 --------------------------------------------- */
 .sidebar .enews-widget {
-  background-color: $enews__backgroundColor;
+  background-color: $enews--background-color;
 
   &, .widget-title {
-    color: $enews__color;
+    color: $enews--color;
   }
 
   & input,
   & input:focus {
-    border: 1px solid $enews__inputBorderColor;
+    border: 1px solid $enews__input--border-color;
   }
 
   & input[type="submit"] {
-    background-color: $enews__submitButton__backgroundColor;
-    color: $enews__submitButton__color;
+    background-color: $enews__submit-button--background-color;
+    color: $enews__submit-button--color;
   }
 
   & input:hover[type="submit"],
   & input:focus[type="submit"] {
-    background-color: $enews__submitButton__backgroundHoverColor;
-    color: $enews__submitButton__hoverColor;
+    background-color: $enews__submit-button__backgroundHoverColor;
+    color: $enews__submit-button_--hover-color;
   }
 }
 .enews-widget {
   input {
-    font-size: rem($enews__fontSize);
+    font-size: rem($enews--font-size);
     margin-bottom: 16px;
 
     &[type="submit"] {

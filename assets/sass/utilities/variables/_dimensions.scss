@@ -2,41 +2,41 @@
 // Dimension variables
 //========================
 
-$baseWidth: 1280;
+$base--width: 1280;
 $gutter: 40px;
 
 // Max Widths
 //===============================
 
-$maxWidth: $baseWidth + px;
-$maxWidth__largerScreen: 1140px;
-$maxWidth__largeScreen: 960px;
-$maxWidth__mediumScreen: 800px;
-$maxWidth__landingPage: 800px;
+$max-width: $base--width + px;
+$max-width-larger-screen: 1140px;
+$max-width-large-screen: 960px;
+$max-width-medium-screen: 800px;
+$max-width__landing-page: 800px;
 
 
 
 // Content Widths
 //===============================
 
-$content__width: 880px;
-$content__width: $baseWidth * 0.6875 + px;
-$content__largerScreenWidth: 800px;
-$contentBothSidebars__width: 660px;
-$content__largeScreenWidth: 620px;
-$contentBothSidebars__largerScreenWidth: 580px;
-$contentBothSidebars__largeScreenWidth: 400px;
+$content--width: 880px;
+//$content--width: $base--width * 0.6875 + px;
+$content--width-larger-screen: 800px;
+$content--width-large-screen: 620px;
+$content-both-sidebars--width: 660px;
+$content-both-sidebars--width-larger-screen: 580px;
+$content-both-sidebars--width-large-screen: 400px;
 
-$primarySidebar__width: 360px;
-//$primarySidebar__width: $maxWidth - $content__width - $gutter;
-//$primarySidebar__width: $baseWidth * 0.28125 + px;
-$primarySidebar__largerScreenWidth: 300px;
-$secondarySidebar__width: 180px;
+$primary-sidebar--width: 360px;
+//$primary-sidebar--width: $max-width - $content--width - $gutter;
+//$primary-sidebar--width: $base--width * 0.28125 + px;
+$primary-sidebar--width-larger-screen: 300px;
+$secondary-sidebar--width: 180px;
 
 
-$contentSidebarWrap__width: 1060px;
-$contentSidebarWrap__largerScreenWidth: 920px;
-$contentSidebarWrap__largeScreenWidth: 740px;
+$content-sidebar-wrap--width: 1060px;
+$content-sidebar-wrap--width-larger-screen: 920px;
+$content-sidebar-wrap--width-large-screen: 740px;
 
 
 
@@ -44,21 +44,21 @@ $contentSidebarWrap__largeScreenWidth: 740px;
 // Header Module
 //==========================
 
-$titleArea__width: 300px;
+$title-area--width: 300px;
 
-$siteTitle__minHeight: 80px;
+$site-title--min-height: 80px;
 
-$headerRight__width: 800px;
+$header-right--width: 800px;
 
-$headerRight__width__largeScreen: 620px;
+$header-right--width-large-screen: 620px;
 
 
 
 
 // Footer Module
 
-$footerWidgets__width: 380px;
-$footerWidgets__width__largeScreen: 300px;
+$footer-widgets--width: 380px;
+$footer-widgets--width-large-screen: 300px;
 
 
 

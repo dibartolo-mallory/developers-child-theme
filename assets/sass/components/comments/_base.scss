@@ -6,8 +6,8 @@
 .comment-respond,
 .entry-comments,
 .entry-pings {
-  background-color: $comment__backgroundColor;
-  font-size: rem($comments__fontSize);
+  background-color: $comment--background-color;
+  font-size: rem($comments--font-size);
 
   margin-bottom: 40px;
 

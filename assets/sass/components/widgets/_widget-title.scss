@@ -4,11 +4,11 @@
 
 
 .sidebar .widget-title a {
-  color: $widgetTitle__linkColor;
+  color: $widget-title--link-color;
   text-decoration: none;
 }
 
 .widget-title {
-  font-size: rem($widgetTitle__fontSize);
+  font-size: rem($widget-title--font-size);
   margin-bottom: 20px;
 }

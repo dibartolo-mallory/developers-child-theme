@@ -4,10 +4,10 @@
 input,
 select,
 textarea {
-  background-color: $input__backgroundColor;
-  border: 1px solid $input__borderColor;
-  color: $input__color;
-  font-size: rem($input__fontSize);
+  background-color: $input--background-color;
+  border: 1px solid $input--border-color;
+  color: $input--color;
+  font-size: rem($input--font-size);
   font-weight: 400;
   padding: 16px;
   width: 100%;
@@ -15,7 +15,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border: 1px solid $input__focusBorderColor;
+  border: 1px solid $input--focus-border-color;
   outline: none;
 }
 
@@ -26,12 +26,12 @@ input[type="radio"] {
 }
 
 ::-moz-placeholder {
-  color: $input__color;
+  color: $input--color;
   opacity: 1;
 }
 
 ::-webkit-input-placeholder {
-  color: $input__color;
+  color: $input--color;
 }
 
 button,
@@ -39,11 +39,11 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"],
 .button {
-  background-color: $button__backgroundColor;
+  background-color: $button--background-color;
   border: 0;
-  color: $button__color;
+  color: $button--color;
   cursor: pointer;
-  font-size: rem($button__fontSize);
+  font-size: rem($button--font-size);
 
   font-weight: 700;
   padding: 16px 24px;
@@ -62,13 +62,13 @@ input:focus[type="button"],
 input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus  {
-  background-color: $button__hoverBackgroundColor;
-  color: $button__hoverColor;
+  background-color: $button--hover-background-color;
+  color: $button--hover-color;
 }
 
 .entry-content .button:hover,
 .entry-content .button:focus {
-  color: $button__color;
+  color: $button--color;
 }
 
 .button {
@@ -94,9 +94,9 @@ input[type="submit"].small {
    input[type="reset"]:disabled:hover,
    input[type="submit"]:disabled,
    input[type="submit"]:disabled:hover {
-    background-color: $button__disabledBackgroundColor;
+    background-color: $button--disabled-background-color;
     border-width: 0;
-    color: $button__disabledColor;
+    color: $button--disabled-color;
     cursor: not-allowed;
   }
 }
