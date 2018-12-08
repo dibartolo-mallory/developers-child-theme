@@ -1,17 +1,17 @@
 
-
+$rem-fallback: true;
 //
 // Base
 //=================================
 $html--font-size: 62.5%;
-$rem-fallback: true;
+
 
 $base--font-family: 'Source Sans Pro', sans-serif;
 
 $base--font-size: 20px;
 $base--font-size--small-screen: 18px;
-$base__div--font-size: 2;
-$base__div--font-size--small-screen: 1.8;
+$base__div--font-size: 2rem;
+$base__div--font-size--small-screen: 1.8rem;
 $base--line-height: 1.625;
 
 //Headings

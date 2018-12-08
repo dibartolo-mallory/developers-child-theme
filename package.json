@@ -12,21 +12,17 @@
     "type": "git",
     "url": "git+https://github.com/dibartolo-mallory/developers-child-theme.git"
   },
-  "author": "mdbcreative",
-  "license": "GPL",
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/dibartolo-mallory/developers-child-theme/issues"
   },
   "homepage": "https://github.com/dibartolo-mallory/developers-child-theme#readme",
   "devDependencies": {
-    "bourbon": "^4.3.4",
+    "bourbon": "^4.2.6",
     "bourbon-neat": "^1.7.2",
     "gulp": "^3.9.1",
-    "gulp-sass": "^4.0.2"
-  },
-  "dependencies": {
-    "lodash": "^4.17.11",
-    "minimatch": "^3.0.4",
-    "sass-rem": "^2.0.1"
+    "gulp-sass": "^2.3.2",
+    "sass-rem": "^1.2.2"
   }
 }
