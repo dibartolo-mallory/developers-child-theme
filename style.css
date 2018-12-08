@@ -285,6 +285,7 @@ body {
   background-color: #eee;
   color: #333;
   font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
   font-size: 1.25rem;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
@@ -295,6 +296,7 @@ body {
 
 @media screen and (max-width: 860px) {
   body {
+    font-size: 18px;
     font-size: 1.125rem;
   }
 }
@@ -305,6 +307,7 @@ body > div {
 
 @media screen and (max-width: 860px) {
   body > div {
+    font-size: 1.8;
     font-size: 1.8;
   }
 }
@@ -375,6 +378,7 @@ blockquote {
 blockquote::before {
   content: "\201C";
   display: block;
+  font-size: 30px;
   font-size: 1.875rem;
   height: 0;
   left: -20px;
@@ -397,26 +401,32 @@ h6 {
 }
 
 h1 {
+  font-size: 36px;
   font-size: 2.25rem;
 }
 
 h2 {
+  font-size: 30px;
   font-size: 1.875rem;
 }
 
 h3 {
+  font-size: 24px;
   font-size: 1.5rem;
 }
 
 h4 {
+  font-size: 20px;
   font-size: 1.25rem;
 }
 
 h5 {
+  font-size: 18px;
   font-size: 1.125rem;
 }
 
 h6 {
+  font-size: 16px;
   font-size: 1rem;
 }
 
@@ -447,6 +457,7 @@ textarea {
   background-color: #fff;
   border: 1px solid #ddd;
   color: #333;
+  font-size: 18px;
   font-size: 1.125rem;
   font-weight: 400;
   padding: 16px;
@@ -483,6 +494,7 @@ input[type="submit"],
   border: 0;
   color: #fff;
   cursor: pointer;
+  font-size: 16px;
   font-size: 1rem;
   font-weight: 700;
   padding: 16px 24px;
@@ -1102,6 +1114,7 @@ img.alignright {
 }
 
 .site-title {
+  font-size: 30px;
   font-size: 1.875rem;
   font-weight: 700;
   line-height: 1.2;
@@ -1123,6 +1136,7 @@ img.alignright {
 }
 
 .site-description {
+  font-size: 16px;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -1170,6 +1184,7 @@ img.alignright {
 ---------------------------------------------------------------------------------------------------- */
 .genesis-nav-menu {
   clear: both;
+  font-size: 16px;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1;
@@ -1223,6 +1238,7 @@ img.alignright {
   background-color: #fff;
   border: 1px solid #eee;
   border-top: 0;
+  font-size: 14px;
   font-size: 0.875rem;
   padding: 20px;
   position: relative;
@@ -1337,6 +1353,7 @@ img.alignright {
 ------------------------------------- */
 .breadcrumb {
   background-color: #fff;
+  font-size: 16px;
   font-size: 1rem;
   margin-bottom: 1px;
   padding: 12px 30px;
@@ -1392,6 +1409,7 @@ img.alignright {
   color: #333;
   cursor: pointer;
   display: inline-block;
+  font-size: 16px;
   font-size: 1rem;
   font-weight: 600;
   padding: 8px 12px;
@@ -1490,6 +1508,7 @@ img.alignright {
 /* ## Entry Meta
 --------------------------------------------- */
 p.entry-meta {
+  font-size: 16px;
   font-size: 1rem;
   margin-bottom: 0;
 }
@@ -1497,6 +1516,7 @@ p.entry-meta {
 /* ## Entry Header
 -------------------------------------------- */
 .entry-title {
+  font-size: 36px;
   font-size: 2.25rem;
 }
 
@@ -1565,6 +1585,7 @@ p.entry-meta {
 ------------------------------------- */
 .after-entry {
   background-color: #fff;
+  font-size: 18px;
   font-size: 1.125rem;
   margin-bottom: 40px;
   padding: 60px;
@@ -1589,6 +1610,7 @@ p.entry-meta {
 .entry-comments,
 .entry-pings {
   background-color: #fff;
+  font-size: 16px;
   font-size: 1rem;
   margin-bottom: 40px;
 }
@@ -1715,6 +1737,7 @@ p.entry-meta {
 }
 
 .widget-title {
+  font-size: 18px;
   font-size: 1.125rem;
   margin-bottom: 20px;
 }
@@ -1740,6 +1763,7 @@ p.entry-meta {
 }
 
 .featured-content .entry-title {
+  font-size: 18px;
   font-size: 1.125rem;
 }
 
@@ -1787,6 +1811,7 @@ p.entry-meta {
 ---------------------------------------------------------------------------------------------------- */
 .footer-widgets {
   background-color: #fff;
+  font-size: 18px;
   font-size: 1.125rem;
   clear: both;
   padding: 60px 0;
@@ -1847,6 +1872,7 @@ p.entry-meta {
 .site-footer {
   background-color: #fff;
   border-top: 1px solid #eee;
+  font-size: 16px;
   font-size: 1rem;
   line-height: 1;
   padding: 60px 0;
@@ -1886,6 +1912,7 @@ p.entry-meta {
 }
 
 .enews-widget input {
+  font-size: 16px;
   font-size: 1rem;
   margin-bottom: 16px;
 }
@@ -1911,6 +1938,7 @@ p.entry-meta {
 ------------------------------------- */
 .archive-description {
   background-color: #fff;
+  font-size: 18px;
   font-size: 1.125rem;
   margin-bottom: 40px;
   padding: 60px;
@@ -1928,5 +1956,6 @@ p.entry-meta {
 }
 
 .archive-description .entry-title, .archive-title {
+  font-size: 20px;
   font-size: 1.25rem;
 }

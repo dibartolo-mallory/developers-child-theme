@@ -1,34 +1,38 @@
 <?php
 /**
- *
- * Comments HTML markup structure
+ * Comments structure handling.
  *
  * @package mdbcreative
  * User: mallorydibartolo
  * Date: 11/6/18
- * Time: 8:42 PM
+ * Time: 8:51 PM
  */
-
 namespace mdbcreative;
 
-//* Modify size of the Gravatar in the entry comments
-add_filter('genesis_comment_list_args', __NAMESPACE__ . '\setup_comments_gravatar');
-
 /**
- * Modify size of the Gravatar in the entry comments
+ * Unregister comments callbacks.
+ *
+ * @since 1.0.0
+ *
+ * @return void
+ */
+function unregister_comments_callbacks() {
+
+}
+
+add_filter( 'genesis_comment_list_args', __NAMESPACE__ . '\setup_comments_gravatar' );
+/**
+ * Modify size of the Gravatar in the entry comments.
  *
  * @since 1.0.0
  *
  * @param array $args
  *
  * @return mixed
- *
  */
-function setup_comments_gravatar(array $args)
-{
+function setup_comments_gravatar( array $args ) {
 
-    $args['avatar_size'] = 60;
+	$args['avatar_size'] = 60;
 
-    return $args;
-
+	return $args;
 }
