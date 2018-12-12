@@ -23,6 +23,7 @@
     "bourbon-neat": "^1.7.2",
     "gulp": "^4.0.0",
     "gulp-sass": "^2.3.2",
+    "node-sass": "^4.11.0",
     "sass-rem": "^1.2.2"
   }
 }
