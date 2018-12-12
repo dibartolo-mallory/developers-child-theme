@@ -3,7 +3,7 @@
 
 $white: #fff;
 $black: #000;
-$red: #c3251d;
+$blue: #4169e1;
 $gray-lighter: #eee;
 $gray--light: #ddd;
 $gray--medium: #777;
@@ -15,10 +15,10 @@ $gray: #333;
 
 $base--color: $gray;
 
-$link--color: $red;
+$link--color: $blue;
 $link--hover-color: $gray;
 
-$body--background-color: #eee;
+$body--background-color: $white;
 
 //
 // Elements
@@ -34,7 +34,7 @@ $input--border-color: $gray--light;
 $input--color: $gray;
 $input--focus-border-color: $gray--light;
 $button--background-color: $gray;
-$button--hover-background-color: $red;
+$button--hover-background-color: $blue;
 $button--hover-color: $white;
 $button--color: $white;
 $button--disabled-background-color: $gray-lighter;
@@ -51,8 +51,8 @@ $site-header--background-color: $white;
 // Navigation
 //=================================
 
-$nav--link-color: green;
-$nav--hover-color: $red;
+$nav--link-color: $gray;
+$nav--hover-color: $blue;
 $submenu--border-color: $gray-lighter;
 $submenu--link-background-color: $white;
 
@@ -66,14 +66,14 @@ $secondary-nav--link-color: $nav--link-color;
 
 $js-nav--background-color: $white;
 $js-nav--hover-color: $black;
-$js-nav--focus-color: $red;
+$js-nav--focus-color: $blue;
 
 $nav-toggle--background-color: $white;
 $nav-toggle--color: $gray;
 
 $archive-pagination--backgroundColor: $white;
 $archive-pagination--color: $gray;
-$archive-pagination--hover-background-color: $red;
+$archive-pagination--hover-background-color: $blue;
 $archive-pagination--hover-color: $white;
 
 
@@ -92,7 +92,7 @@ $footer-widgets--background-color: $white;
 $entry-footer__meta--border-color: $gray-lighter;
 $entry--background-color: $white;
 $entry-title--link-color: $gray;
-$entry-title--hover-color: $red;
+$entry-title--hover-color: $blue;
 
 $entry-content__code--background-color: $gray;
 $entry-content__code--color: $gray-lighter;
@@ -116,7 +116,7 @@ $widget-title--link-color: $gray;
 $enews--background-color: $gray;
 $enews--color: $white;
 $enews__input--border-color: $gray;
-$enews__submit-button--background-color: $red;
+$enews__submit-button--background-color: $blue;
 $enews__submit-button--color: $white;
 
 $enews__submit-button__backgroundHoverColor: $enews__submit-button--color;

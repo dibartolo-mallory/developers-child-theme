@@ -327,7 +327,7 @@ textarea:focus,
 }
 
 a {
-  color: #c3251d;
+  color: #4169e1;
   text-decoration: underline;
 }
 
@@ -513,7 +513,7 @@ input:focus[type="button"],
 input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus {
-  background-color: #c3251d;
+  background-color: #4169e1;
   color: #fff;
 }
 
@@ -1218,7 +1218,7 @@ img.alignright {
 }
 
 .genesis-nav-menu a {
-  color: green;
+  color: #333;
   text-decoration: none;
   display: block;
   padding: 32px 20px;
@@ -1229,7 +1229,7 @@ img.alignright {
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus {
-  color: #c3251d;
+  color: #4169e1;
   text-decoration: underline;
 }
 
@@ -1427,7 +1427,7 @@ img.alignright {
 
 .archive-pagination a:hover, .archive-pagination a:focus,
 .active .archive-pagination a {
-  background-color: #c3251d;
+  background-color: #4169e1;
   color: #fff;
 }
 
@@ -1495,7 +1495,7 @@ img.alignright {
   }
   .js nav button:focus,
   .js .menu-toggle:focus {
-    color: #c3251d;
+    color: #4169e1;
   }
 }
 
@@ -1535,7 +1535,7 @@ p.entry-meta {
 }
 
 .entry-title a:hover, .entry-title a:focus {
-  color: #c3251d;
+  color: #4169e1;
 }
 
 .entry-header .entry-meta {
@@ -1910,14 +1910,14 @@ p.entry-meta {
 }
 
 .sidebar .enews-widget input[type="submit"] {
-  background-color: #c3251d;
+  background-color: #4169e1;
   color: #fff;
 }
 
 .sidebar .enews-widget input:hover[type="submit"],
 .sidebar .enews-widget input:focus[type="submit"] {
   background-color: #fff;
-  color: #c3251d;
+  color: #4169e1;
 }
 
 .enews-widget input {
